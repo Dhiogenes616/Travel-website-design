@@ -1,0 +1,426 @@
+body {
+    background: #1a1726;
+}
+
+
+#nav-general {
+    background: #201b2c;
+    border-bottom: 5px solid #00ff88;
+    box-shadow:0px 10px 40px -12px #00ff8052;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 18px 50px;
+    font-size: 13px;
+    color: #A9A9A9;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+#logo {
+    color: #A9A9A9;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Caprasimo', cursive;
+    padding: 10px 20px;
+}
+
+.image-meio{
+    display: flex;
+    justify-content: center;
+}
+
+.text-meio {
+    display: flex;
+    justify-content: center;
+    color: #A9A9A9;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.reader {
+    padding: 30px 20px;
+}
+
+.img-meio {
+    box-shadow:0px 10px 40px -12px #00ff8052;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    margin: 0 10px;
+  }
+
+  .image-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn{
+    background: #00ff88;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #201b2c;
+    font-family: 'Noto Serif Makasar', serif;
+    font-size: 20px;
+  }
+
+
+
+.btn:hover {
+    background-color: #1a1726;
+    color: #00ff88;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #00ff88;
+    padding: 90px 50px;
+    font-size: 24px;
+  }
+  
+  .link-brands {
+    padding: 40px 40px;
+    background: #201b2c;
+  }
+
+  .post {
+    margin: 20px;
+  }
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  .post-title {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #00ff88;
+    font-family: 'Noto Serif Makasar', serif;
+    font-size: 20px;
+  }
+  .post-description {
+    color: #A9A9A9;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .post-likes-comments {
+    margin-top: 10px;
+  }
+  .post-likes-comments span {
+    margin-right: 10px;
+  }
+  .post-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .container {
+   box-shadow:0px 10px 40px -12px #00ff8052; 
+    padding:20px 20px;
+  }
+
+  .link-brands-2 {
+    padding: 5px 5px;
+    background: #00ff88;
+    box-shadow:0px 10px 40px -12px #00ff8052;
+  }
+
+  .navbar-2 {
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    padding: 10px;
+  }
+
+  .navbar-list-2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-item-2 {
+    margin: 0 10px;
+  }
+
+  .link-social {
+    text-decoration: none;
+    color: #1a1726;
+    padding: 10px 60px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .ilha {
+    display: flex;
+    justify-content: center;
+  }
+
+.navbar-3 {
+    background-color: #f2f2f2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  padding: 40px 40px;
+}
+
+.navbar-3 {
+  background-color: rgb(51,51,51);
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-3 .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-3 .photographer-info {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-3 .photographer-info img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Estilos para o campo de email */
+.email-input {
+  display: flex;
+  align-items: center;
+}
+
+.email-input input[type="email"] {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.email-input button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info-photo {
+  height: 130px;
+  width: 480px;
+  color: white;
+}
+
+.name-photografer {
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.title-sub {
+  color: #00ff88;
+  padding: 180px 200px;
+  font-family: 'Noto Serif Makasar', serif;
+}
+
+.travell {
+  font-size: 50px;
+  /* text-shadow: 0 0 5px #00ff88;  */
+  letter-spacing: 4px;
+  
+}
+
+.text-travel {
+  color: #A9A9A9;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  letter-spacing: 1px;
+}
+
+ .feed-container {
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow:0px 10px 40px -12px #00ff8052;
+  border-radius: 18px;
+  
+}
+.post {
+  margin-bottom: 20px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+}
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 5px;
+ 
+  letter-spacing: 3px;
+}
+.post-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.post-like-icon,
+.post-comment-icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.author-name {
+  color: #A9A9A9;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#descrip-into {
+  color: #A9A9A9;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.navbar {
+  background-color: rgb(51,51,51);
+  padding: 10px 0;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-photo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.navbar-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 20px 20px;
+}
+
+.navbar-email {
+  margin-right: 10px;
+}
+.navbar-social-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.photo-title {
+  color: #00ff88;
+  font-size: 40px;
+  font-family: 'Noto Serif Makasar', serif;
+}
+
+.photo-description {
+  color: #A9A9A9;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+
+  padding: 40px 40px;
+}
+
+.link-brands-3 {
+  padding: 5px 5px;
+  background: #00ff88;
+  box-shadow:0px 10px 40px -12px #00ff8052;
+}
+
+.navbar-3 {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+  padding: 10px;
+}
+
+.navbar-list-3 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item-3 {
+  margin: 0 10px;
+
+}
+
+.link-social-3 {
+  text-decoration: none;
+  color: #1a1726;
+  padding: 10px 60px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.final {
+  color: #A9A9A9;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
